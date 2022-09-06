@@ -1,0 +1,6 @@
+.sample-rectangle {
+  width: 5em;
+  height: 2em;
+  border: 1px solid black;
+  border-radius: 0.1em;
+}

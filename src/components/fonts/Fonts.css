@@ -1,0 +1,39 @@
+/* .fontsContainer {
+  font-family: "Gellix";
+  font-size: 16px;
+}
+
+.detail {
+  font: 400 10px/20px sans-serif;
+  letter-spacing: normal;
+  color: var(--medium-gray);
+  margin: 20px 0 2px 0;
+  border-top: 1px solid var(--medium-gray);
+  width: 500px;
+}
+
+.detail-light {
+  color: var(--white);
+}
+
+p {
+  margin: 2px;
+}
+
+.dark-blue .detail {
+  color: var(--very-light-gray);
+  border-top: 1px solid var(--very-light-gray);
+}
+
+.containerDark {
+  margin-top: 10px;
+  padding: var(--small-gap) var(--small-gap) var(--medium-gap) var(--small-gap);
+  background-color: var(--midnight-blue);
+  color: var(--white);
+}
+.containerDarkBlue {
+  margin-top: 10px;
+  padding: var(--small-gap) var(--small-gap) var(--medium-gap) var(--small-gap);
+  background-color: var(--dark-blue);
+  color: var(--white);
+} */

@@ -1,0 +1,24 @@
+.stepper-actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.stepper-resizable {  
+  margin: 0 1rem;
+  resize: horizontal;
+  overflow: auto;
+}
+
+.stepper-samples {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: var(--big-gap); 
+  column-gap: var(--big-gap);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: var(--medium-gap);
+  border-radius: var(--small-gap);
+  background-color: white;
+  width: auto;
+}

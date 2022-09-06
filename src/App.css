@@ -1,0 +1,29 @@
+body {
+  font-family: 'Gellix', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ultra-light-gray);
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.wrapper {
+  width: 75%;
+  margin-left: 25%;
+  margin-bottom: 5em;
+}
+
+
+.levels-page pre,
+.stepper-page pre,
+.modal-page pre,
+.flipcard-page pre,
+.login-page pre {
+  background-color: var(--very-light-gray);
+  padding: var(--medium-gap)
+}

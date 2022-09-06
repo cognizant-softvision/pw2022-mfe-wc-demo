@@ -1,0 +1,50 @@
+.login-wrapper {
+  width: 100%;
+  margin: 100px auto auto auto;
+}
+
+.login-wrapper p {
+  margin-bottom: var(--small-gap);
+}
+
+.section {
+  width: 90ch;
+  margin: 50px auto;
+}
+
+.login-samples {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: var(--big-gap);
+  column-gap: var(--big-gap);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: var(--medium-gap);
+  border-radius: var(--small-gap);
+}
+
+.button-container {
+  position: fixed;
+  top: 0;
+  background: rgba(256, 256, 256, 0.8);
+  min-width: 203px;
+
+  height: 64px;
+  display: flex;
+  padding: 5px;
+  /* position: sticky; */
+}
+.button-container button  {
+  margin-left: 10px;
+}
+.hidden {
+  display: none;
+}
+
+.sampleImage {
+  width: 100px;
+  position: relative;
+  top: 15px;
+  margin: '0 5px'
+}
