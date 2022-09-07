@@ -109,7 +109,7 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      chunks: ["wc_demo"],
+      // chunks: ["wc_demo"],
       templateParameters: {
         assetsUrl: REMOTE_WEB_COMPONENTS,
       },
