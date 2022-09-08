@@ -16,11 +16,12 @@ const { REMOTE_WEB_COMPONENTS, REMOTE } = process.env;
 module.exports = {
   mode: "production",
   entry: {
-    wc_demo: path.resolve(__dirname, "./src/index.tsx"),
+    wc_demo: path.resolve(__dirname, "./src/index.js"),
     wc_demo_styles: path.resolve(__dirname, "./src/bootstrap.tsx"),
   },
   output: {
     filename: "[name].bundle.js",
+    chunkFilename: "[name].chunk.js",
     path: path.resolve(__dirname, "./dist"),
     publicPath: REMOTE,
   },
@@ -109,7 +110,7 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      // chunks: ["wc_demo"],
+      chunks: ["wc_demo"],
       templateParameters: {
         assetsUrl: REMOTE_WEB_COMPONENTS,
       },

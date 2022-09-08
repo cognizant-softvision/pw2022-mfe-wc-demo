@@ -14,7 +14,7 @@ const { PORT, REMOTE_WEB_COMPONENTS, LOCAL_WEB_COMPONENTS } = process.env;
 module.exports = {
   mode: "development",
   entry: {
-    wc_demo: path.resolve(__dirname, "./src/index.tsx"),
+    wc_demo: path.resolve(__dirname, "./src/index.js"),
     wc_demo_styles: path.resolve(__dirname, "./src/bootstrap.tsx"),
   },
   output: {
@@ -130,7 +130,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       'process.env.WC_DEMO_STYLE_URL': JSON.stringify(`http://localhost:${PORT}/wc_demo_styles.css`),
-      'process.env.STYLES_URL': JSON.stringify(`${LOCAL_WEB_COMPONENTS || REMOTE_WEB_COMPONENTS}/styles.css`)
+      'process.env.STYLES_URL': JSON.stringify(`${LOCAL_WEB_COMPONENTS || REMOTE_WEB_COMPONENTS}/styles.css`),
    })
   ],
 };
