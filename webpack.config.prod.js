@@ -37,6 +37,9 @@ module.exports = {
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
     minimize: true,
+    // splitChunks: true,
+    chunkIds: 'named',
+    splitChunks: false
   },
   module: {
     rules: [
