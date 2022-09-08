@@ -39,7 +39,7 @@ module.exports = {
     minimize: true,
     // splitChunks: true,
     chunkIds: 'named',
-    splitChunks: false
+    //splitChunks: false
   },
   module: {
     rules: [
